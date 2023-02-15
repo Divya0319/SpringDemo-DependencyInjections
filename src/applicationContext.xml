@@ -29,7 +29,7 @@
 		<property name="fortuneService" ref="myFortune"/>
 		
 		<!-- inject literal values -->
-		<property name="emailAddress" value="${oueteamemail}" />
+		<property name="emailAddress" value="${ourteamemail}" />
 		<property name="team" value="${ourteamname}" />
 	</bean>
 
