@@ -18,5 +18,15 @@ public class ChessCoach implements Coach {
 		
 		return "Just do it: " + fortuneService.getFortune();
 	}
+	
+	// add an init method
+	public void doMyStartupStuff() {
+		System.out.println("ChessCoach: inside method doMyStartupStuff");
+	}
+	
+	// add destroy method
+	public void doMyCleanupStuff() {
+		System.out.println("ChessCoach: inside method doMyCleanupStuff");
+	}
 
 }
