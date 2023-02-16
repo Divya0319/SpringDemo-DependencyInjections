@@ -1,4 +1,5 @@
-#SpringDemo-DependencyInjections
+SpringDemo-DependencyInjections
+-------------------------------
 
 A demo spring app showcasing various dependency injections
 * Constructor Injection
